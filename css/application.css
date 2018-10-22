@@ -1,0 +1,52 @@
+body {
+  background: #faf8ef;
+  font-family: 'Source Code Pro', monospace;
+}
+
+h1, h2 {
+  text-align: center;
+  color:#666;
+}
+
+.board {
+  width: 410px;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 100px;
+  padding: 10px 10px 20px 10px;
+  border-radius: 10px;
+  background: #bbada0;
+}
+
+.cell {
+  border: 1px solid #bbada0;
+  width: 100px;
+  height: 100px;
+  outline: 1px solid;
+  float: left;
+  font-size: 80px;
+  background: rgba(238, 228, 218, 0.35);
+  color: black;
+  border-radius: 5px;
+}
+
+#header {
+  margin: auto;
+  text-align: center;
+}
+
+.button {
+  margin: auto;
+  text-align: center;
+}
+
+.animated.bounceIn {
+  -webkit-animation-duration: .3s;
+  animation-duration: .3s;
+}
+.animated.shake {
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+}
